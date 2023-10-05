@@ -1,0 +1,62 @@
+
+
+.flex{
+    padding: 150px;
+    padding-left: 550px;
+    background-color: hsl(217, 54%, 11%)
+}
+.body{
+    background-color: hsl(216, 50%, 16%) ;
+    padding: 20px;
+    width: 225px;
+    border-radius: 10px;
+}
+.eth{
+    display: flex;
+    flex-direction: row;
+    
+}
+.days{
+    padding-left: 50px;
+    color: darkcyan;
+}
+.four{
+    color: cyan;
+    padding-bottom: 17px;
+}
+p{
+    color: white;
+    font-weight: 700;
+    font-family:  sans-serif;
+}
+.jk{
+
+    color: darkcyan;
+}
+.jules{
+   
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+}
+span{
+    color: white;
+}
+b{
+    color: darkcyan;
+}
+img{
+    border-radius: 12px;
+}
+
+
+@media screen and (max-width: 400px) {
+
+    
+.flex{
+    padding: 50px;
+    padding-left: 50px;
+    background-color: hsl(217, 54%, 11%)
+}
+}
